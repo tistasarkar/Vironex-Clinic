@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>HealWell Clinic — Doctors</title>
+  <link rel="stylesheet" href="css/style.min.css"/>
+</head>
+<body>
+
+<div id="loader"><div class="loader-dot"></div><div class="loader-dot"></div><div class="loader-dot"></div></div>
+
+<header class="header">
+  <div class="container navbar">
+    <div class="brand"><div class="logo" aria-hidden="true">HW</div><div>HealWell Clinic</div></div>
+    <div class="burger" role="button" tabindex="0" aria-label="Toggle navigation" onclick="toggleMenu()">☰</div>
+    <nav>
+      <ul class="nav-links" id="navLinks" role="menubar" aria-label="Main navigation">
+         <li role="none"><a role="menuitem" href="http://localhost:5000/">Home</a></li>
+        <li role="none"><a role="menuitem" href="http://localhost:5000/about">About</a></li>
+        <li role="none"><a role="menuitem" href="http://localhost:5000/doctors">Doctors</a></li>
+        <li role="none"><a role="menuitem" href="http://localhost:5000/services">Services</a></li>
+        <li role="none"><a role="menuitem" href="http://localhost:5000/faq">FAQs</a></li>
+        <li role="none"><a role="menuitem" href="http://localhost:5000/contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="light-dark" id="darkToggle" role="button" tabindex="0" aria-label="Toggle dark mode">🌙</div>
+  </div>
+</header>
+
+<main>
+  <section class="section" data-aos="fade-up">
+    <div class="container">
+      <div class="title">Our Specialists</div>
+      <div class="grid">
+        <div class="card">
+          <img class="avatar" src="images/drasha.webp" alt="Dr Asha"/>
+          <h3>Dr. Asha Mehta</h3>
+          <p class="small">Cardiologist — 12 yrs</p>
+          <p>Expert in interventional cardiology and heart health.</p>
+          <div style="margin-top:10px"><a class="btn" href="http://localhost:5000/appointment">Book</a></div>
+        </div>
+        <div class="card">
+          <img class="avatar" src="images/drraj.webp" alt="Dr Raj"/>
+          <h3>Dr. Raj Sen</h3>
+          <p class="small">Dermatologist — 9 yrs</p>
+          <p>Advanced skin treatments and cosmetic dermatology.</p>
+          <div style="margin-top:10px"><a class="btn" href="http://localhost:5000/appointment">Book</a></div>
+        </div>
+        <div class="card">
+          <img class="avatar" src="images/drpriya.jpeg" alt="Dr Priya"/>
+          <h3>Dr. Priya Patel</h3>
+          <p class="small">Pediatrics — 8 yrs</p>
+          <p>Compassionate pediatric care for infants and children.</p>
+          <div style="margin-top:10px"><a class="btn" href="http://localhost:5000/appointment">Book</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container small">© 2025 HealWell Clinic. All rights reserved.</div>
+</footer>
+
+<script src="js/script.min.js"></script>
+</body>
+</html>

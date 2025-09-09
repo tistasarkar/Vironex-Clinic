@@ -33,10 +33,5 @@ app.use('/api/users', userRoutes); // Routes for /api/users/register, /api/users
 app.use('/api/forms', formRoutes); // Routes for /api/forms/contact, /api/forms/appointment
 
 
-// --- Start Server ---
-/*const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`✅ Server running on port ${PORT}`);
-});*/
 
 module.exports = app
